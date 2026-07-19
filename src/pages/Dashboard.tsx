@@ -6,7 +6,7 @@ const Dashboard = () => {
     <Grid container spacing={3}>
       <Grid item xs={12}>
         <Paper sx={{ p: 3 }}>
-          <Typography variant="h4" gutterBottom>Welcome to A-fit-ID</Typography>
+          <Typography variant="h4" gutterBottom>Welcome to MON_ID</Typography>
           <Typography>Your decentralized health identity management system</Typography>
         </Paper>
       </Grid>
