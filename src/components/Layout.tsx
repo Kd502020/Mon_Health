@@ -22,7 +22,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
     <Box sx={{ display: 'flex' }}>
       <AppBar position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
         <Toolbar sx={{ justifyContent: 'space-between' }}>
-          <Typography variant="h6">A-fit-ID</Typography>
+          <Typography variant="h6">MON_ID</Typography>
           <Button 
             color="inherit" 
             onClick={connectWallet}
