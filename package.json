@@ -4,16 +4,13 @@
   "private": true,
   "description": "Decentralized Health Data Identity Application",
   "main": "index.js",
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "dev": "vite --host 0.0.0.0",
-    "deploy": "hardhat run scripts/deploy.ts localhost",
-    "eject": "react-scripts eject",
-    "test:contract": "npx hardhat test",
-    "test:react": "react-scripts test"
-  },
+ "scripts": {
+  "dev": "vite --host 0.0.0.0",
+  "build": "vite build",
+  "preview": "vite preview",
+  "deploy": "hardhat run scripts/deploy.ts localhost",
+  "test:contract": "npx hardhat test"
+},
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
